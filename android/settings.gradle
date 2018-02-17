@@ -1,0 +1,3 @@
+rootProject.name = 'oddsare'
+
+include ':app'
