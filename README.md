@@ -13,3 +13,7 @@ npm install react-native-cli -g
 ## In separate terminals
 yarn start
 yarn run start:ios
+
+# Interesting Commands
+yarn run lint
+yarn run build
