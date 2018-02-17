@@ -27,8 +27,17 @@ node_modules/
 npm-debug.log
 
 # Android
+#
 .idea
 .gradle
 local.properties
 *.iml
 /android/
+
+# Jest
+#
+.jest
+
+# Typescript
+#
+artifacts
