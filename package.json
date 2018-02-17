@@ -5,9 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "watch": "yarn run build -w",
-    "start:android": "yarn run build && concurrently -r 'npm run watch' 'react-native run-android'",
-    "start:ios": "yarn run build && concurrently -r 'yarn run watch' 'react-native run-ios'"
+    "start:android": "react-native run-android",
+    "start:ios": "react-native run-ios"
   },
   "dependencies": {
     "react": "16.2.0",
