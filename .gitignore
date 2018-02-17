@@ -26,10 +26,6 @@ DerivedData
 node_modules/
 npm-debug.log
 
-# typescript
-#
-artifacts/
-
 # Android
 .idea
 .gradle
