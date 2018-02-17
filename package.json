@@ -5,11 +5,13 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
-    "start:ios": "react-native run-ios",
     "tsc": "tsc",
     "clean": "rimraf artifacts",
-    "build": "npm run clean && npm run tsc --",
-    "lint": "tslint src/**/*.ts"
+    "build": "yarn run clean && yarn run tsc",
+    "lint": "tslint src/**/*.{ts,tsx}",
+    "watch": "yarn run build -w",
+    "start:android": "npm run build && concurrently -r 'npm run watch' 'react-native run-android'",
+    "start:ios": "yarn run build && concurrently -r 'yarn run watch' 'react-native run-ios'"
   },
   "dependencies": {
     "@types/jest": "^22.1.3",

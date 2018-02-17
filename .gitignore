@@ -29,3 +29,10 @@ npm-debug.log
 # typescript
 #
 artifacts/
+
+# Android
+.idea
+.gradle
+local.properties
+*.iml
+/android/
