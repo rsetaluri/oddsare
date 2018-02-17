@@ -12,11 +12,15 @@ brew install watchman
 ## install react native cli
 npm install react-native-cli -g
 
+## install tslint
+npm install tslint -g
+
 # In separate terminals
 yarn start
-yarn run start:ios
-yarn run start:android
+yarn start:ios
+yarn start:android
 
 # Interesting Commands
-yarn run lint
-yarn run build
+yarn lint
+yarn build
+yarn test
