@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "react": "16.2.0",
-    "react-native": "0.53.0"
+    "react-native": "0.53.0",
+    "react-native-fbsdk": "^0.7.0"
   },
   "devDependencies": {
     "@types/jest": "^22.1.3",
