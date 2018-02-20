@@ -3,6 +3,7 @@ deeznuts
 
 # Setup
 ## IOS make sure you have Xcode you doofus
+## Strongly recommend upgrading to the latest. Was having issues with <9.x
 ## Android: https://facebook.github.io/react-native/docs/getting-started.html#android-development-environment
 
 ## install node and watchman
